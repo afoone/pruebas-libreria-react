@@ -1,5 +1,5 @@
 {
-  "name": "pruebas-library",
+  "name": "@umeme-es/pruebas-library",
   "version": "1.0.0",
   "description": "boton de pruebas",
   "author": "afoone",
@@ -10,6 +10,9 @@
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.umeme.es:8081/repository/npm-private/"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
